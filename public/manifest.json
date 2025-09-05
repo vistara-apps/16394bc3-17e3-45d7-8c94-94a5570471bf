@@ -1,0 +1,14 @@
+{
+  "name": "FlashTrade",
+  "description": "FlashTrade is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://16394bc3-17e3-45d7-8c94-94a5570471bf.vercel.app",
+  "properties": {
+    "app": {
+      "name": "FlashTrade",
+      "description": "FlashTrade is a Base Mini App built with Zara.",
+      "url": "https://16394bc3-17e3-45d7-8c94-94a5570471bf.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
