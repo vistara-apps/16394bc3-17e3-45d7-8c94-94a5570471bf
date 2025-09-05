@@ -1,18 +1,13 @@
+import { Concept } from './types';
+
 // Trading Concepts Data
-export const TRADING_CONCEPTS: Array<{
-  conceptId: string;
-  title: string;
-  description: string;
-  contentType: 'video' | 'infographic';
-  difficulty: 'beginner' | 'intermediate' | 'advanced';
-  estimatedTime: number;
-  category: string;
-}> = [
+export const TRADING_CONCEPTS: Concept[] = [
   {
     conceptId: 'candlestick-basics',
     title: 'Candlestick Patterns',
     description: 'Learn to read candlestick charts and identify key patterns that signal market movements.',
     contentType: 'video',
+    contentUrl: '/content/candlestick-basics.mp4',
     difficulty: 'beginner',
     estimatedTime: 3,
     category: 'Technical Analysis'
@@ -22,6 +17,7 @@ export const TRADING_CONCEPTS: Array<{
     title: 'Understanding Order Books',
     description: 'Master the order book to see market depth and predict price movements.',
     contentType: 'infographic',
+    contentUrl: '/content/order-book.png',
     difficulty: 'beginner',
     estimatedTime: 2,
     category: 'Market Structure'
@@ -31,6 +27,7 @@ export const TRADING_CONCEPTS: Array<{
     title: 'Support & Resistance',
     description: 'Identify key price levels where assets tend to bounce or break through.',
     contentType: 'video',
+    contentUrl: '/content/support-resistance.mp4',
     difficulty: 'intermediate',
     estimatedTime: 4,
     category: 'Technical Analysis'
@@ -40,6 +37,7 @@ export const TRADING_CONCEPTS: Array<{
     title: 'Risk Management',
     description: 'Learn position sizing, stop-losses, and how to protect your capital.',
     contentType: 'video',
+    contentUrl: '/content/risk-management.mp4',
     difficulty: 'intermediate',
     estimatedTime: 5,
     category: 'Risk Management'
@@ -49,6 +47,7 @@ export const TRADING_CONCEPTS: Array<{
     title: 'Market Psychology',
     description: 'Understand fear, greed, and how emotions drive market movements.',
     contentType: 'infographic',
+    contentUrl: '/content/market-psychology.png',
     difficulty: 'advanced',
     estimatedTime: 6,
     category: 'Psychology'
